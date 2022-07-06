@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+body{
+    font-family: 'Trispace', sans-serif;
+    text-align: center;
+    background: #B3FFAB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #12FFF7, #B3FFAB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #12FFF7, #B3FFAB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+header{
+    margin-top: 1em;
+    font-size: 2rem;
+}
+
+.dog-picture{
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    margin-top: 3em;
+    border-radius: 2em;
+    background-size: cover;
+}
+
+.dog-generator{
+    border-radius: 4em;
+    border: none;
+    padding: 4em;
+    margin-top: 3em;
+    cursor: pointer;
+}
+
+.colorChange{
+    background-color: green;
+}
